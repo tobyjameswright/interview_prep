@@ -6,10 +6,6 @@ def fizz_buzz(iterations: int, list_divisor: list = [], list_words: list = []) -
     of the provided divisiors then print all the words
     """
     if len(list_divisor) != len(list_words):
-        print(len(list_divisor))
-        print(len(list_words))
-        print(list_divisor)
-        print(list_words)
         raise ValueError('The entered lists are of different lengths')
     for i in range(1, iterations+1):
         output = ""
