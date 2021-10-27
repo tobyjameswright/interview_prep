@@ -12,4 +12,10 @@ Future ideas to work through grokking algorithms in this repo
     - implementation of binary search for a number guessing game
 
 - Recursive Array Sum
-    - sum all elements in an array using a recursive function call
+    - sum all elements in an array using a recursive function
+
+- Recursive Array Count
+    - count total number of elements in an array using a recursive function
+
+- Recursive Array get max
+    - get the max value from an array using a recursive function
