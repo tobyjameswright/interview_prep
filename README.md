@@ -19,3 +19,6 @@ Future ideas to work through grokking algorithms in this repo
 
 - Recursive Array get max
     - get the max value from an array using a recursive function
+
+- Quicksort Algo
+    - sort an array based on divide an conquer and recursion 
