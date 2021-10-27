@@ -10,3 +10,6 @@ Future ideas to work through grokking algorithms in this repo
 
 - Binary Search
     - implementation of binary search for a number guessing game
+
+- Recursive Array Sum
+    - sum all elements in an array using a recursive function call
