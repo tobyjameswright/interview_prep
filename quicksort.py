@@ -1,10 +1,19 @@
+from random import randint
+
 def quicksort(list_of_ints: list) -> list:
     if len(list_of_ints) < 2:
         return list_of_ints
     else:
-        pivot_val = list_of_ints[0]
-        less = [i for i in list_of_ints[1:] if i <= pivot_val]
-        greater = [i for i in list_of_ints[1:] if i > pivot_val]
+        rand_index = randint(0, len(list_of_ints)-1)
+        pivot_val = list_of_ints[rand_index]
+        less = [j for i, j in enumerate(list_of_ints) if j <= pivot_val and
+                i != rand_index]
+        greater = [i for i in list_of_ints if i > pivot_val]
+        print(rand_index)
+        print('list',  list_of_ints)
+        print('pivot', pivot_val)
+        print('less_list', less)
+        print('greater_list', greater)
         return quicksort(less) + [pivot_val] + quicksort(greater)
 
 
